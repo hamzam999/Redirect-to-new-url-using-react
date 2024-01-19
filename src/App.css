@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+
+:root {
+  /* For dark background color- */
+  --neutral-black-bg: #000000;
+  --gray-background-bg: #141415;
+  --primary-black-fade-bg: #1a1a1b;
+  --secondary-black-fade-bg: #151515;
+
+  /* For dark text color- */
+  --colorful-text: #0c8ae6;
+  --primary-dark-text: #141415;
+  --secondary-dark-text: #313135;
+
+  /* For light background color- */
+  --primary-light-bg: #ffffff;
+  --secondary-light-bg: #f7f7f7;
+
+  /* For light text color- */
+  --colorful-text: #0c8ae6;
+  --primary-light-text: #ffffff;
+  --secondary-dark-text: #cacace;
+  --light-gray-text: #fafafa;
+
+  --mailto-footer: #47628f;
+}
+
+:root {
+  scrollbar-color: #1e80ef #fdfdfd !important;
+  scrollbar-width: thin !important;
+}
+
+.not_found{
+  height: 100vh;
+  background-color: var(--neutral-black-bg);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  text-align: center ;
+}
+
+.not_found h3 {
+  color: #fff;
+  font-family: "Archivo", sans-serif;
+  font-size: 32px;
+  margin-top: 15px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.not_found h4 {
+  color: #fff;
+  font-family: "Archivo", sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+
+  text-transform: uppercase;
+}
+
+.not_found p {
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+  font-size: 28px;
+}
